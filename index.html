@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./image/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="http://">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="http://">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib-option nav-option">
+              <img src="./image/library_icon.png" alt="" />
+              <a href="http://">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">It's easy,we'll help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+            <div class="box">
+              <p class="box-p1">Let's find some podcasts to follow</p>
+              <p class="box-p2">we'll keep you updated on new episodes</p>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <img src="./image/backward_icon.png" alt="" />
+            <img src="./image/forward_icon.png" class="hide" alt="" />
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge nav-item hide">Exolore Premium</button>
+            <button class="badge nav-item dark-badge">
+              <i class="fa-regular fa-circle-down" style="margin-right: 6px"></i
+              >Install App
+            </button>
+            <i class="fa-regular fa-user"></i>
+          </div>
+        </div>
+
+        <h2>Recently Played</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./image/download (1).jpeg" class="card-img" alt="" />
+            <p class="card-title">Aashiqui 2</p>
+            <p class="card-info">Mithun,Ankit Tiwari,Jeet Ganguli...</p>
+          </div>
+          <div class="card">
+            <img src="./image/download.jpeg" class="card-img" alt="" />
+            <p class="card-title">GLORY</p>
+            <p class="card-info">Yo Yo Honey Singh</p>
+          </div>
+          <div class="card">
+            <img src="./image/download (4).jpeg" class="card-img" alt="" />
+            <p class="card-title">Aaj Ki Raat</p>
+            <p class="card-info">Sachin Jigar,Amitabh Bhattacharya</p>
+          </div>
+        </div>
+
+        <h2>Features Charts</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./image/card5img.jpeg" class="card-img" alt="" />
+            <p class="card-title">Top Song Global</p>
+            <p class="card-info">Your daily updates of the most played ...</p>
+          </div>
+          <div class="card">
+            <img src="./image/card6img.jpeg" class="card-img" alt="" />
+            <p class="card-title">Top Songs India</p>
+            <p class="card-info">
+              Your weekly update of the most played tracks right now -India
+            </p>
+          </div>
+          <div class="card">
+            <img src="./image/card1img.jpeg" class="card-img" alt="" />
+            <p class="card-title">Top 50 Global</p>
+            <p class="card-info">
+              Your weekly update of the most played tracks right now - Global..
+            </p>
+          </div>
+          <div class="card">
+            <img src="./image/download (5).jpeg" class="card-img" alt="" />
+            <p class="card-title">Viral 50 Global</p>
+            <p class="card-info">
+              Your weekly update of the most played tracks right now - Global..
+            </p>
+          </div>
+          <div class="card">
+            <img src="./image/download.png" class="card-img" alt="" />
+            <p class="card-title">Top Songs USA</p>
+            <p class="card-info">
+              Your weekly update of the most played tracks right now - USA..
+            </p>
+          </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./image/download (6).jpeg" class="card-img" alt="" />
+            <p class="card-title">Tauba Tauba</p>
+            <p class="card-info">Tauba Tauba (From "Bad Newz")</p>
+          </div>
+          <div class="card">
+            <img src="./image/download (7).jpeg" class="card-img" alt="" />
+            <p class="card-title">Sajni</p>
+            <p class="card-info">Sajni (From "Laapataa Ladies")</p>
+          </div>
+          <div class="card">
+            <img src="./image/download (8).jpeg" class="card-img" alt="" />
+            <p class="card-title">Zaroori Tha</p>
+            <p class="card-info">Song by Rahat Fateh Ali Khan</p>
+          </div>
+          <div class="card">
+            <img src="./image/download (9).jpeg" class="card-img" alt="" />
+            <p class="card-title">Tainu Kahabar Nahin</p>
+            <p class="card-info">
+              Song by Amitabh Bhattacharya, Arijit Singh, and Sachin–Jigar
+            </p>
+          </div>
+          <div class="card">
+            <img src="./image/download (10).jpeg" class="card-img" alt="" />
+            <p class="card-title">Tumhare Hi Rahenge Hum</p>
+            <p class="card-info">
+              Amitabh Bhattacharya, Sachin-Jigar, Varun Jain, Shilpa Rao
+            </p>
+          </div>
+        </div>
+
+        <h2>Popular Albums</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./image/download (11).jpeg" class="card-img" alt="" />
+            <p class="card-title">Khubsurat</p>
+            <p class="card-info">
+              Song by Amitabh Bhattacharya, Sachin–Jigar, and Vishal Mishra
+            </p>
+          </div>
+          <div class="card">
+            <img src="./image/download (12).jpeg" class="card-img" alt="" />
+            <p class="card-title">Brown Rang</p>
+            <p class="card-info">Song by Yo Yo Honey Singh</p>
+          </div>
+          <div class="card">
+            <img src="./image/download (13).jpeg" class="card-img" alt="" />
+            <p class="card-title">Blue Eyes</p>
+            <p class="card-info">Song by Yo Yo Honey Singh</p>
+          </div>
+          <div class="card">
+            <img src="./image/download (14).jpeg" class="card-img" alt="" />
+            <p class="card-title">Love Dose</p>
+            <p class="card-info">
+              Yo Yo Honey Singh, Urvashi Rautela | Shor | Bhushan Kumar
+            </p>
+          </div>
+          <div class="card">
+            <img src="./image/download (15).jpeg" class="card-img" alt="" />
+            <p class="card-title">High Heels</p>
+            <p class="card-info">Jaz Dhami, Yo Yo Honey Singh · 2012.</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="music-player">
+        <div class="album"></div>
+        <div class="player">
+          <div class="player-controls">
+            <img
+              src="./image/player_icon1.png"
+              class="player-control-icon"
+              alt=""
+            />
+            <img
+              src="./image/player_icon2.png"
+              class="player-control-icon"
+              alt=""
+            />
+            <img
+              src="./image/player_icon3.png"
+              class="player-control-icon big"
+              alt=""
+            />
+            <img
+              src="./image/player_icon4.png"
+              class="player-control-icon"
+              alt=""
+            />
+            <img
+              src="./image/player_icon5.png"
+              class="player-control-icon"
+              alt=""
+            />
+          </div>
+          <div class="playback-bar">
+            <span class="curr-time">1:03</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              step="2"
+              class="progress-bar"
+            />
+            <span class="tot-time">3:04</span>
+          </div>
+        </div>
+        <div class="controls"></div>
+      </div>
+    </div>
+  </body>
+</html>
